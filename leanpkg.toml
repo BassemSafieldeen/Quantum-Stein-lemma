@@ -1,0 +1,9 @@
+[package]
+name = "quantum-Stein-lemma"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.42.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "cfedf1d5b51096eccff25b7dd9ea8c86f4c402c8"}
+qvantum-shannon-theory = {git = "https://github.com/BassemSafieldeen/qvantum-shannon-theory", rev = "10d8df99c308cd044994b9c3f6dabe5e3cc21adb"}
